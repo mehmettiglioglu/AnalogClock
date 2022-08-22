@@ -1,0 +1,76 @@
+body{
+    background: url("https://st.depositphotos.com/2042191/4303/i/950/depositphotos_43035237-stock-photo-time-clocks-black-white-background.jpg") no-repeat cadetblue;
+    opacity: 0.8;
+}
+.clock{
+    background: url(/ios_clock.svg) no-repeat center;
+    background-size: 90%;
+    height: 40em;
+    width: 40em;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 50%;
+    left: 30%;
+    margin-top: 100px;
+
+}
+.sec .min{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.hours{
+  background: #000;
+  height: 20%;
+  left: 50%;
+  position: absolute;
+  top: 30%;
+  transform-origin: 50% 100%;
+  width: 1%;
+  border-radius: 20px;
+}
+.min{
+  background:black;
+  height: 35%;
+  left: 50%;
+  position: absolute;
+  top: 15%;
+  transform-origin: 50% 100%;
+  width: 0.75%;
+  border-radius: 20px;
+ 
+}
+.sec{
+    background:black;
+  height: 40%;
+  left: 50%;
+  position: absolute;
+  top: 10%;
+  transform-origin: 50% 100%;
+  width: 0.5%;
+  border-radius: 20px;
+ 
+}
+.dot{
+    background:red;
+    height:10px;
+    position:absolute;
+    width: 10px;
+    left: 50%;
+    top: 49.5%;
+    border-radius: 20px;
+}
+.digital{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    left: 20%;
+    top: 48%;
+    background:grey;
+    border-radius:10% ;
+    font-size:250%;
+    font-family: monospace;
+    opacity: 0.8;
+}
